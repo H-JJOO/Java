@@ -16,7 +16,7 @@ public class StringEqualsExample {
 
         System.out.println(str1 == str2);//false
 
-        String str3 = str2;//다른 통이지만 같은 주소값을 담고 있음.
+        String str3 = str2;//다른 통이지만 같은 값을 담고 있음.
         System.out.println(str3 == str2);//그래서 true
 
         //아파트가 같은 아파트인지(주소말고)
