@@ -14,5 +14,10 @@ public class OperatorExample5 {
         System.out.println(11 % 2);
         System.out.println(12 % 2);
         System.out.println(13 % 2);
+
+        String str = "" + 10;
+        //parsing 파싱
+        String str1 = Integer.toString(n2);
+        String str2 = String.valueOf(n2);
     }
 }

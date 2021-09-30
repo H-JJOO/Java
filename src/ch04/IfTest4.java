@@ -15,6 +15,9 @@ public class IfTest4 {
         } else {
             System.out.println("300만원");
         }
+
+
+
     }
 }
 
