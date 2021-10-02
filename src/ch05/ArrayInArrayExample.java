@@ -2,7 +2,7 @@ package ch05;
 
 public class ArrayInArrayExample {
     public static void main(String[] args) {
-        int[][] arr = new int[4][4];
+        int[][] arr = new int[2][3];
 
         System.out.println(arr.length);
         System.out.println(arr[0].length);

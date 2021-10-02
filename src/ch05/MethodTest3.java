@@ -5,6 +5,9 @@ public class MethodTest3 {
         int rVal = getRandom(40, 50); //30~40 랜덤한 값을 리턴하는 메소드를 구현
         System.out.println(rVal);
 
+        System.out.println("----------------------------");
+
+        //절대값으로 나올수있게
         int absVal = getABS(10);
         int absVal2 = getABS(-10);
         System.out.println("absVal : " + absVal);

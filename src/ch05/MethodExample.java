@@ -1,6 +1,6 @@
 package ch05;
 
-public class MethodsExample {
+public class MethodExample {
 
         //               ↓  메소드명(호출하기위한 네이밍)
     public static void main(String[] args) {//메소드

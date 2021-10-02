@@ -27,13 +27,13 @@ public class MethodTest {
 
     public static void printSeason(int mon) {
 
-//        if (mon == 12 || mon == 1 || mon ==2){
+//        if (mon == 12 || mon < 3){
 //            System.out.println("겨울");
-//        } else if (mon == 3 || mon == 4 || mon ==5) {
+//        } else if (mon < 6) {
 //            System.out.println("봄");
-//        } else if (mon == 6 || mon == 7 || mon ==8) {
+//        } else if (mon < 9) {
 //            System.out.println("여름");
-//        } else if (mon == 9 || mon == 10 || mon ==11) {
+//        } else if (mon < 12) {
 //            System.out.println("가을");
 //        } else {
 //            System.out.println("알 수 없음");
