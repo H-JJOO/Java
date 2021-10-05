@@ -25,7 +25,7 @@ public class DmbCellPhone extends CellPhone{
 
         은닉화된 멤버필드에서 값을 빼내는 방법(1)
 
-        1. getter 메소드 이용해서 객체에 값 넣기
+        1. getter 메소드 이용해서 객체에 값 빼기
 
         ☆★은닉화된 멤버필드에 값을 넣고 뺄때는 getter setter 메소드를 이용해야하고 추가로 값을 넣을수 있는 방법으로는 생성자를 이용해서 객체에 값 넣는것이 있다.☆★
 
