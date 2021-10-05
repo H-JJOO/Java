@@ -8,5 +8,9 @@ public class Calc {
         return n1 + n2;
     }
 
+    public static int sum(int a, int b) {
+        return a + b;
+    }
+
 
 }

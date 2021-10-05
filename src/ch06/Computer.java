@@ -1,7 +1,7 @@
 package ch06;
 
 public class Computer {
-    static String brand;//공용변수, 오로지 한개만 저장된다.(스테틱 변수), 스스로 메모리에 올라간다.
+    static String brand;//공용변수, 오로지 한개만 저장된다.(스테틱 변수), 스스로 메모리에 올라간다., 공유된다
     int cpu;//객체별로 다른 값을 저장할수 있다.(인스턴스 객체 변수), 일부로 메모리에 올려줘야한다.
 
     public void print() {//Computer 을 인스턴스화 객체화 해주니까 문제될것이 없다.

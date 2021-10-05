@@ -8,6 +8,8 @@ public class StaticCalc {
         return n1 + n2;
     }
 
+
+
     //static 메소드 장려!!!!
     //1. 파라미터 값만 사용할 때(멤버필드 사용 X)
     //2. 맴버필드를 사용하는데 그 멤버필드가 static인 경우

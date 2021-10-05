@@ -9,6 +9,7 @@ public class CarTest {
         car.nm = "소나타";
         car.drive();
         car.stop();
+        System.out.println(car.brand);
 
         Car car3 = new Car();//기존의 현대 소나타는 없어지지않고 유지되어있음
         car3.brand = "기아";

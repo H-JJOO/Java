@@ -13,7 +13,8 @@ public class CarTest3 {
         car2 = car;
         System.out.println("car2.nm : " + car2.nm);
 
-        Car car3 = new Car("1",1);
+        Car car3 = new Car("1",1);//이름도 없고 브랜드도 없다 null
+        car3.drive();
 
 
     }
