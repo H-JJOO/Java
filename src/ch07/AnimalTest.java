@@ -6,7 +6,7 @@ public class AnimalTest {
 
     1. 부모타입은 자식객체 주소값 저장할 수 있다. (가리킬 수 있다, 참조 할수 있다.)
 
-    2. 자식타입은 부모객체 주소값 저장할 수 없다. (가리킬 수 없다, 참조 할수 없다.) 바로 컴파일에러 발생.
+    2. 자식타입은 부모객체 주소값 저장할 수 없다. (가리킬 수 없다, 참조 할수 없다.)
 
     3. 메소드 호출은 타입이 알고 있는 것만 호출 할 수 있고, 내용은 객체 기준이다.
 
@@ -32,5 +32,6 @@ public class AnimalTest {
 //        cat2.sleep();
         BigCat bigCat1 = (BigCat)cat2 ;//수동형변환(강제형변환)
         bigCat.sleep();
+        System.out.println(bigCat1 == cat2);//주소값 같음
     }
 }

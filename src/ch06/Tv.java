@@ -4,6 +4,13 @@ public class Tv {
     private String brand = null;//레퍼런스형은 null//boolean 형은 false
     private int inch = 0;//숫자형은 0
 
+    public Tv() {
+
+    }
+    public Tv(String brand) {
+        this.brand = brand;
+    }
+
     public String getBrand() {//외부로 값을 내보낸다
         return brand;
     }
