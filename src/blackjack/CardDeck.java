@@ -2,6 +2,7 @@ package blackjack;
 
 //import java.util.*
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
 public class CardDeck {
@@ -17,9 +18,9 @@ public class CardDeck {
     }
 
     //5번문제 일듯? 변수는 다를거고
-    private void init() {
+    private void init() {//내부에서만 쓰드록 private
         String[] patters = new String[]{"♠", "♥", "♣", "◆"};//4칸 배열
-        cards = new ArrayList();//배열생성
+        cards = new LinkedList();//배열생성
 
         for (int i = 0; i < patters.length; i++) {//4번반복
             for (int z = 1; z <= 13; z++) {//1 부터 13번 반복 4x13=52번 반복
@@ -37,7 +38,7 @@ public class CardDeck {
                         denomination = String.valueOf(z);//2~10은 정수를 문자열로 변경
 //                        denomination = z + "";
                 }
-                Card c = new Card(patters[i], denomination);
+                Card c = new Card(patters[i], denomination);//객체화
                 cards.add(c);
 
 //                cards.add(new Card(patters[i], denomination));
@@ -54,7 +55,8 @@ public class CardDeck {
         //if 콜렉션을 ArrayList로 했다면 랜덤하게 카드를 준다.
 
         int rIdx = (int)(Math.random()*cards.size());
-        return cards.remove(rIdx);
+        Card c = cards.remove(rIdx);//지운걸
+        return c;//리턴해준다.
 
 //        return cards.remove((int)(Math.random() + cards.size())); // 가독성 나빠서 잘 안씀
     }

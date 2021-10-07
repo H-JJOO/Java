@@ -18,7 +18,7 @@ public class Dealer extends Gamer {
 
             if (sumPoint <= 16) {
                 Card c = cd.getCard();
-                receivedCard(c);
+                this.receivedCard(c);
 //                receivedCard(cd.getCard());//한줄로
             }
 

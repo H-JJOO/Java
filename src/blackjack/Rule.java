@@ -3,7 +3,7 @@ package blackjack;
 import java.util.List;
 
 public class Rule {
-    public int getSCore(List<Card> cards) {
+    public static int getSCore(List<Card> cards) {//멤버필드가 없기때문에 static 가능
         int sumPoint = 0;//선언,초기화
         for (int i = 0; i < cards.size(); i++) {
             Card c = cards.get(i);
@@ -12,7 +12,7 @@ public class Rule {
         return sumPoint;
     }
 
-    public void getWinner(Dealer dealer, Gamer gamer) {
+    public static void getWinner(Dealer dealer, Gamer gamer) {
         int dealerScore = getSCore((dealer.openCards()));
         int gamerScore = getSCore((gamer.openCards()));
 //        int dealerScore = 22;//TEST 용

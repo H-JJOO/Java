@@ -7,9 +7,16 @@ public class Card {
 
     //한번만 값 입력되도록 생성자 사용할거임
     public Card(String pattern, String denomination) {
+        //super();
         this.pattern = pattern;
         this.denomination = denomination;
     }
+
+    //static 사용조건(파라미터 값만을 사용할 때)
+//    public static int sum(int a, int b) {
+//        return a + b;
+//    }
+
     //getter 메소드 만들기
     public String getPattern() {
         return this.pattern;
@@ -39,6 +46,10 @@ public class Card {
 
     @Override
     public String toString() {
+//        String str = String.valueOf(1);//문자그대로 바꿔줌
+//        String str2 = String.format("%s - %s", this.pattern, this.denomination);//사용하고싶은 구조로 사용할 수 있음
+
+
         return String.format("%s - %s", this.pattern, this.denomination);
     }
 }
