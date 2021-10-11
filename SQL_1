@@ -109,7 +109,7 @@ DROP TABLE t_product;
 
 SELECT * FROM t_product;
 
--- count()
+-- COUNT()
 
 SELECT company, COUNT(iproduct), SUM(price), AVG(price)
 , SUM(price) / COUNT(price)
